@@ -2,8 +2,17 @@
 title: Your awesome title
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
 
+# Sidebar settings
+description: One sentence introducing yourself or what you do
+
+# Social icons
+twitter: vfalanis
+facebook: vfalanis
+linkedin: vfalanis
+github: vfalanis
+github: deviantart
 
 # Build settings
 markdown: kramdown

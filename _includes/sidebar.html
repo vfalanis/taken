@@ -1,0 +1,39 @@
+<!-- Begin Body -->
+<div class="container">
+	<div class="row">
+  			<div class="col-md-2" id="leftCol">
+
+                <div id="picture" style="background-image: url(http://www.naturaloil.ph/wp-content/uploads/2015/11/John_Doe.jpg)"></div>
+                <p>{{site.description}}</p>
+                <hr>
+                <div id="social-icons">
+                    <ul>
+                        <li><a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://twitter.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://linkedin.com/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
+                        <li><a href="http://deviantart.com/{{ site.deviantart }}"><i class="fa fa-deviantart"></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+				
+                <div class="navigation">
+                    <ul>
+                        {% for my_page in site.pages %}
+                            {% if my_page.title %}
+                            <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                        {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                
+                <hr>
+      		</div>
+        
+      		<div class="col-md-10">
+              	
+<!--              	{{ content }}-->
+              	
+      		</div> 
+  	</div>
+</div>
