@@ -1,3 +1,3 @@
 # taken
 
-Taken is a minimalist columned based jekyll theme based on chapter tumblr theme 
+Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
