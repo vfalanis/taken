@@ -1,6 +1,8 @@
 ---
 ---
 
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 body
 {
     margin-top: 80px ! important;
@@ -78,6 +80,109 @@ a {
     line-height: 2.4rem;
     font-weight: 300;
 }
+
+/* Content syle */
+
+.content p
+{
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19.2px;
+    word-spacing: 0px;
+    color:#777777;
+}
+
+.content h2
+{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 29.2px;
+    word-spacing: 0px;
+    color: #555555;
+}
+
+.content h3
+{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 29.2px;
+    word-spacing: 0px;
+    color: #555555;
+}
+
+.content pre
+{
+    border:none;
+    width: 70%;
+
+    /* Generic font style */
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19.2px;
+    word-spacing: 0px;
+    color:#777777;
+}
+
+.content li
+{
+    font-family: Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 29.2px;
+    word-spacing: 0px;
+    color:#777777;
+}
+
+.content img
+{
+  display: block;
+  max-width: 100%;
+  margin: 0 0 1rem;
+  border-radius: 5px;   
+}
+
+.content a
+{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: HelveticaNeue;
+    color: rgb(130, 130, 130);
+}
+
+footer
+{
+    min-height: 50px;
+}
+
+
+/*.content table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    background: #fff;
+    margin: 45px;
+    width: 480px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.content th {
+  font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    padding: 10px 8px;
+    border-bottom: 2px solid #6678b1;
+}
+
+.content td
+{
+    color: #669;
+    padding: 9px 8px 0px 8px;
+}
+*/
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
