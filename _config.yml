@@ -8,11 +8,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 description: One sentence introducing yourself or what you do
 
 # Social icons
-twitter: username
 facebook: username
 linkedin: username
 github: username
-github: username
+deviantart: username
+codepen: username
 
 # Build settings
 markdown: kramdown

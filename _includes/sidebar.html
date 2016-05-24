@@ -8,15 +8,15 @@
                 <hr>
                 <div id="social-icons">
                     <ul>
-                        <li><a href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="http://twitter.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="http://linkedin.com/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="http://facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://mx.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
                         <li><a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
-                        <li><a href="http://deviantart.com/{{ site.deviantart }}"><i class="fa fa-deviantart"></i></a></li>
+                        <li><a href="http://{{ site.deviantart }}.deviantart.com"><i class="fa fa-deviantart"></i></a></li>
+                        <li><a href="http://codepen.io/{{ site.codepen }}"><i class="fa fa-codepen"></i></a></li>
                     </ul>
                 </div>
                 <hr>
-				
+
                 <div class="navigation">
                     <ul>
                         {% for my_page in site.pages %}
@@ -26,14 +26,15 @@
                         {% endfor %}
                     </ul>
                 </div>
-                
+
                 <hr>
+
       		</div>
-        
+
       		<div class="col-md-10 content">
 
             {{ content }}
-              	              	
-      		</div> 
+
+      		</div>
   	</div>
 </div>

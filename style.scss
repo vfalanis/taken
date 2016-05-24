@@ -14,16 +14,19 @@ body
     width:150px;
     height:150px;
     border-radius:5%;
-    background-size: contain;
+    background-size: cover;
     margin-bottom: 8px;
+
 }
 
 #leftCol p {
-    color: rgb(162, 163, 163);
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    background-color: #fff;
+    font-size: 13px;
     line-height: normal;
+    font-style: normal;
+    color: #8C8C8C;
+    font-weight: 300;
 }
 
 #social-icons
@@ -48,7 +51,7 @@ body
     color: rgb(162, 163, 163);
 }
 
-.navigation 
+.navigation
 {
     font-size:  1.1em;
     display: block;
@@ -62,11 +65,15 @@ body
 
 
 .navigation a {
-    color: rgb(162, 163, 163);
-    font-family: HelveticaNeue;
+
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    background-color: #fff;
     font-size: 13px;
-    font-weight: normal;
+    line-height: normal;
     font-style: normal;
+    color: #8C8C8C;
+    font-weight: 300;
+
 }
 
 a {
@@ -81,36 +88,65 @@ a {
     font-weight: 300;
 }
 
-/* Content syle */
+.content{
+        font-family: "Roboto Condensed", Arial, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #666;
+    font-weight: 300;
+}
+
+.content hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #F7F1F1;
+    border-bottom: 1px solid #fff;
+}
+
+.content h1 {
+    font-weight: normal;
+    color: #696969;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666666;
+    font-weight: bold;
+}
 
 .content p
 {
-    font-family: Arial,sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 19.2px;
-    word-spacing: 0px;
-    color:#777777;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    font-weight: 300;
 }
 
-.content h2
-{
-    font-family: Montserrat;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: 29.2px;
-    word-spacing: 0px;
-    color: #555555;
-}
+.content a {
 
-.content h3
-{
-    font-family: Montserrat;
-    font-size: 26px;
-    font-weight: bold;
-    line-height: 29.2px;
-    word-spacing: 0px;
-    color: #555555;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: normal;
+    font-style: normal;
+    color: #8C8C8C;
+    font-weight: 300;
+
 }
 
 .content pre
@@ -127,62 +163,13 @@ a {
     color:#777777;
 }
 
-.content li
-{
-    font-family: Arial,sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 29.2px;
-    word-spacing: 0px;
-    color:#777777;
-}
-
 .content img
 {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;   
+  border-radius: 2px;
 }
-
-.content a
-{
-    font-size: 13px;
-    font-weight: bold;
-    font-family: HelveticaNeue;
-    color: rgb(130, 130, 130);
-}
-
-footer
-{
-    min-height: 50px;
-}
-
-
-/*.content table {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    font-size: 12px;
-    background: #fff;
-    margin: 45px;
-    width: 480px;
-    border-collapse: collapse;
-    text-align: left;
-}
-
-.content th {
-  font-size: 14px;
-    font-weight: normal;
-    color: #777777;
-    padding: 10px 8px;
-    border-bottom: 2px solid #6678b1;
-}
-
-.content td
-{
-    color: #669;
-    padding: 9px 8px 0px 8px;
-}
-*/
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
