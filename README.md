@@ -3,7 +3,7 @@
 Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
 
 ## Demo
-You can see a live demo of taken theme in my [blog](vfalanis.me)
+You can see a live demo of taken theme in my [blog](http://vfalanis.me)
 
 ## Instructions
 
