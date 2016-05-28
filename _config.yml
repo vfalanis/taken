@@ -14,5 +14,7 @@ github: username
 deviantart: username
 codepen: username
 
+footer: © Taken theme
+
 # Build settings
 markdown: kramdown

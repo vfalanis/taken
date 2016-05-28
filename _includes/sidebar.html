@@ -29,6 +29,26 @@
 
                 <hr>
 
+								<div class="navigation">
+										<ul>
+												{% for category in site.categories %}
+														<li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ category | first }}</a></li>
+												{% endfor %}
+										</ul>
+								</div>
+
+								<hr>
+
+								<p>Flickr Feed<p>
+								<div id="flickr"></div>
+
+								<hr>
+
+								<p>{{site.footer}}<p>
+								<p>Powered by Jekyll<p>
+
+								<hr>
+
       		</div>
 
       		<div class="col-md-10 content">
