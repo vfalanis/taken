@@ -2,6 +2,11 @@
 
 Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
 
+## Features
+* Flickr feed
+* Disqus
+* more ...
+
 ## Demo
 You can see a live demo of taken theme in my [blog](http://vfalanis.me)
 
@@ -13,7 +18,6 @@ You can see a live demo of taken theme in my [blog](http://vfalanis.me)
 4. Go to http://127.0.0.1:4000.
 
 ## To do list:
-
-* Add Disqus support
+* Categories support
 * Add portfolio section
 * More...
