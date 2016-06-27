@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="post-container">
+
+ <h2 class="post-title">Category: {{ page.categories }}</h2>
+
+ <hr>
+
+ {% for post in site.categories[page.categories] %}
+   <div class ="post-preview">
+     <span class="post-title">
+       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+         {{ post.title }}
+       </a>
+     </span>
+
+     <span class="post-time">
+       <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+     </span>
+
+
+   </div>
+
+   {% endfor %}
+
+</div>
