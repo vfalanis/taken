@@ -5,16 +5,16 @@ permalink: /agenda/
 ---
 
 
-PIĄTEK
---------
+**PIĄTEK**
+
 
 * Setup
 Prezentacja aplikacja Spotify - Krzysiek B
 
 * Swift 2 - Michał Januszewski
 
-SOBOTA
-------
+**SOBOTA**
+
 
 * Table View (AlbumViewController) - Krzysiek, Piotrek
 * Refactor FeedViewController - Krzysiek, Piotrek
@@ -24,8 +24,8 @@ SOBOTA
 S* earch RxSwift + MVVM - Cezary Kopacz
 * Testy - Patryk Mierzejewski
 
-Refactor:
----------
+**Refactor**
+
 FeedViewController, ArtistViewController  (Tomek, Piotrek)
 
 FavoritesViewController (Piotrek)
