@@ -1,7 +1,7 @@
 ---
 layout: page
 title: TableView
-permalink: /tableViiew/
+permalink: /tableView/
 ---
 
 
