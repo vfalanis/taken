@@ -25,7 +25,11 @@ S* earch RxSwift + MVVM - Cezary Kopacz
 * Testy - Patryk Mierzejewski
 
 Refactor:
+---------
 FeedViewController, ArtistViewController  (Tomek, Piotrek)
+
 FavoritesViewController (Piotrek)
+
 FeedViewController ver. 2 (Czarek)
+
 PlayerViewController, AlbumViewController (Michał)
