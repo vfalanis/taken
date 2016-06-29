@@ -1,7 +1,7 @@
 ---
-layout: post
-title: Instalacja
-order: 3
+layout: page
+title: Setup
+permalink: /setup/
 ---
 
 ## Szablon aplikacji
