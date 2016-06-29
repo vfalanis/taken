@@ -5,7 +5,7 @@ permalink: /rxswift/
 ---
 
 
-##RxSwift
+#RxSwift
 
 * Introduction
 * Streams

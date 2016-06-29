@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 1 - TableView
+title: TableView
 permalink: /tableViiew/
 ---
 
 
-##UITable View
+#UITable View
 
 * Introduction
 * First Table

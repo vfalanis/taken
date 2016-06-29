@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 2 - Networking
+title: Networking
 permalink: /networking/
 ---
 
 
-##Networking
+#Networking
 
 * Introduction
 * API

@@ -1,11 +1,10 @@
 ---
 layout: page
-title: 4 - Tests
+title: Tests
 permalink: /tests/
 ---
 
-
-##Tests
+#Tests
 * Introduction
 * First Test
 * Workshop
