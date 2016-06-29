@@ -5,8 +5,6 @@ permalink: /networking/
 ---
 
 
-#Networking
-
 * Introduction
 * API
 * Requests

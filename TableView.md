@@ -5,8 +5,6 @@ permalink: /tableViiew/
 ---
 
 
-#UITable View
-
 * Introduction
 * First Table
 * Custom Cells
