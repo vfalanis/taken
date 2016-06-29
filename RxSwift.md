@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3 - RxSwift
+title: RxSwift
 permalink: /rxswift/
 ---
 
