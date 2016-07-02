@@ -7,6 +7,7 @@ permalink: /networking/
 Zadanie 1
 ----------
 
+
 Plik Api.Swift  - w enum Endpoint brakuje obsługi 2 przypadków:
 
 * Track(id: String) 
@@ -15,15 +16,16 @@ Plik Api.Swift  - w enum Endpoint brakuje obsługi 2 przypadków:
 uzupelnije je z następującymi wartościami :
 
 dla Track(id: String) 
-- path: "tracks/\(id)/"
+* path: "tracks/\(id)/"
 
 dla Tracks(ids:[String])
-- path: "tracks/"
-- parameters: ids.encoded
-- rootKeyPath: "tracks"
+* path: "tracks/"
+* parameters: ids.encoded
+* rootKeyPath: "tracks"
 
 Zadanie 2
 ----------
+
 
 W pliku Api.Swift uzupełnij funkcje
 
@@ -39,6 +41,8 @@ Wykorzystaj do tego celu NSURLComponents oraz NSURLQueryItem
 
 Zadanie 3 
 ----------
+
+
 Uzpełnij funkcję request():
 
 Stwórz NSURL request z wykorzystaniem zaimplementowanej wcześniej metody absoluteURL.
