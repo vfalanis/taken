@@ -8,7 +8,7 @@ Zadanie 1
 ----------
 
 
-Plik Api.Swift  - w enum Endpoint brakuje obsługi 2 przypadków:
+Plik *Api.Swift*  - w enum Endpoint brakuje obsługi 2 przypadków:
 
 * Track(id: String) 
 * Tracks(ids:[String])
@@ -16,20 +16,22 @@ Plik Api.Swift  - w enum Endpoint brakuje obsługi 2 przypadków:
 uzupelnije je z następującymi wartościami :
 
 dla Track(id: String) 
-* path: "tracks/\(id)/"
+- [ ] path: "tracks/\(id)/"
 
 dla Tracks(ids:[String])
-* path: "tracks/"
-* parameters: ids.encoded
-* rootKeyPath: "tracks"
+- [ ] path: "tracks/"
+- [ ] parameters: ids.encoded
+- [ ] rootKeyPath: "tracks"
 
 Zadanie 2
 ----------
 
 
-W pliku Api.Swift uzupełnij funkcje
+W pliku *Api.Swift* uzupełnij funkcje
 
+```
 absoluteURL(endpoint: Endpoint) -> NSURL?
+```
 
 która zwraca obiekt NSURL na podstawie przekazanego argumentu endpoint oraz  API.baseURL.
  
@@ -43,14 +45,14 @@ Zadanie 3
 ----------
 
 
-Uzpełnij funkcję request():
+Uzpełnij funkcję ```request()```
 
 Stwórz NSURL request z wykorzystaniem zaimplementowanej wcześniej metody absoluteURL.
 
 
 Wykorzystaj istniejący obiekt session do stworzenia tasku użyj metody:
 
-session.dataTaskWithURL(<url: NSURL>, completionHandler: <(NSData?, NSURLResponse?, NSError?) -> Void>)
+```session.dataTaskWithURL(<url: NSURL>, completionHandler: <(NSData?, NSURLResponse?, NSError?) -> Void>)```
 
 
 Obsłuż response uwzględniając przypadki:
@@ -60,4 +62,4 @@ a) pełna serializacja danych zwróconych przez API
 b) błędna serializacja danych zwróconych przez API
 
 
-Do parsowania błędów zwróconych przez API użyj metody createNSErrorFromJson(json: JSON?) -> NSError?
+Do parsowania błędów zwróconych przez API użyj metody ```createNSErrorFromJson(json: JSON?) -> NSError?```
