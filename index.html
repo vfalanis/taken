@@ -5,27 +5,70 @@ layout: default
 
  <div class="post-container">
 
-  <h2 class="post-title">Blog</h2>
+  <h2 class="post-title">Witamy</h2>
 
   <hr>
 
-  {% for post in site.posts %}
-    <div class ="post-preview">
-      <span class="post-title">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          {{ post.title }}
-        </a>
-      </span>
+  <p>
+                      Zapraszamy na warsztaty, na których razem stworzymy
+                      muzyczną aplikację bazującą na API Spotify - wykorzystamy
+                      najnowsze elementy języka Swift 2.2 oraz wspólnie
+                      przeanalizujemy różne podejścia do najpopularniejszych
+                      zagadnień w tworzeniu aplikacji na iOS.
+                      Bazując na startowym projekcie, krok po kroku będziemy
+                      wspólnie rozwijać naszą aplikację, by na końcu stała się
+                      w pełni funkcjonalną wyszukiwarką muzyczną z wbudowanym
+                      playerem!
+                    </p>
+                    <br>
+                    <h4>Czego się nauczymy?</h4>
+                    <p>
+                      Pokażemy Wam jak stworzyć aplikację zgodnie z dobrymi
+                      praktykami programowania. Podczas warsztatów będziemy
+                      poruszać podstawowe aspekty architektury aplikacji i
+                      korzystać z najpopularniejszych bibliotek.
+                    </p>
+                    <ul>
+                      <li>Omówimy architekturę  MVC.</li>
+                      <li>Połączymy się z API i pobierzemy JSONa przy użyciu NSURLSession i generycznych metod.</li>
+                      <li>Stworzymy interfejs aplikacji przy użyciu Storyboardów oraz Xibów.</li>
+                      <li>Zbudujemy nasze widoki z wykorzystaniem UITableView i UIStackView.</li>
+                      <li>Napiszemy proste testy naszej aplikacji.</li>
+                      <li>Jeśli tylko wystarczy czasu spróbujemy RXSwifta.</li>
+                    </ul>
 
-      <span class="post-time">
-        <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      </span>
+                    <h4>Czy te warsztaty są dla Ciebie?</h4>
+                    <p>
+                      To nie jest podstawowy kurs, na którym będziemy uczyć Was
+                      podstaw Swifta czy Xcode. Warsztaty są przeznaczone dla
+                      osób, które miały już styczność z programowaniem i chcą
+                      rozszerzyć swoje umiejętności. Każdy uczestnik Acodemy
+                      powinien swobodnie poruszać się w:
+                    </p>
+                      <ul>
+                        <li>Swift 2,</li>
+                        <li>UIKit,</li>
+                        <li>networking (NSURLSession, Alamofire, AFNetworking),</li>
+                        <li>Xcode,</li>
+                        <li>CocoaPods.</li>
+                      </ul>
+                    <p>
+                      Szkolenie będzie się odbywać na zasadzie Bring Your Own
+                      Device (BYOD) - zabierz więc swojego Aira lub MBPro i
+                      myszkę. Tuż przed warsztatami wyślemy Ci dokładną
+                      informację na jakiej wersji Xcode będziemy razem pracować.
+                    </p>
 
+                    <h4>Data i miejsce</h4>
+                    <p>
+                      Warsztaty odbędą się w siedzibie firmy
+                      <a href="http://www.10clouds.com" target="_blank">10Clouds</a>
+                      przy ulicy Poselskiej 29 w Warszawie. Będziemy na Ciebie
+                      czekać w godzinach <strong>18:00-21:00</strong> 1 lipca i
+                      <strong>10:00-18:00</strong> 2 lipca 2016 roku. Po
+                      szkoleniu zapraszamy na afterparty w ogródku 10Clouds! :)
+                    </p>
 
-    </div>
-
-    {% endfor %}
-
-
+                    <br>
 
 </div>

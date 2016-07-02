@@ -4,20 +4,14 @@
     <div id="sidebar-wrapper">
 
         <div id="sidebar-middle">
-        <div id="picture" style="background-image: url(http://www.naturaloil.ph/wp-content/uploads/2015/11/John_Doe.jpg)"></div>
-        <p>{{site.description}}</p>
+        <a href="https://iosacodemy.github.io/">
+        <div id="picture" style="background-image: url(http://uxhow.com/wp-content/uploads/2013/11/Apple_Swift_Logo.png)"></div>
+        </a>
+     
 
         <hr>
 
-        <div id="social-icons">
-            <ul>
-                <li><a href="http://facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://mx.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
-                <li><a href="http://{{ site.deviantart }}.deviantart.com"><i class="fa fa-deviantart"></i></a></li>
-                <li><a href="http://codepen.io/{{ site.codepen }}"><i class="fa fa-codepen"></i></a></li>
-            </ul>
-        </div>
+
 
         <hr>
 
@@ -33,24 +27,13 @@
 
         <hr>
 
-        <div class="navigation">
-                <ul>
-                  {% for category in site.categories %}
-                    <li><a href="{{ site.baseurl | prepend: url }}/categories/{{ category | first | prepend: site.baseurl }}">{{ category | first }}</a></li>
-                  {% endfor %}
-                </ul>
-        </div>
+      
 
-
-        <hr>
-
-        <p>Flickr Feed<p>
-        <div id="flickr"></div>
-        <hr>
 
         <p>{{site.footer}}<p>
         <p>Powered by Jekyll<p>
 
+       
         <hr>
 
     </div>
