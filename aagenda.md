@@ -15,21 +15,10 @@ Prezentacja aplikacja Spotify - Krzysiek B
 
 **SOBOTA**
 
-
-* Table View (AlbumViewController) - Krzysiek, Piotrek
-* Refactor FeedViewController - Krzysiek, Piotrek
-* Networking - Tomasz Mędryk
-* NSUserDefaults + FavoritesViewController - Piotr Dudek
-* PlayerViewController - Michał J
-S* earch RxSwift + MVVM - Cezary Kopacz
-* Testy - Patryk Mierzejewski
-
-**Refactor**
-
-FeedViewController, ArtistViewController  (Tomek, Piotrek)
-
-FavoritesViewController (Piotrek)
-
-FeedViewController ver. 2 (Czarek)
-
-PlayerViewController, AlbumViewController (Michał)
+* 10:00 Śniadanie
+* 10:30 Networking - Tomasz Mędryk
+* 12:30 UITableView Refactor- Krzysiek Bogacz
+* 14:00 Lunch
+* 14:30 PlayerViewController - Michał Januszewski
+* 15:30 RxSwift  - Cezary Kopacz
+* 17:00 Unit Tests - Patryk Mierzejewski
