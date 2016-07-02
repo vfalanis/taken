@@ -6,9 +6,8 @@ permalink: /networking/
 
 Zadanie 1
 ----------
-* Api.Swift
 
-W enum Endpoint  brakuje obsługi 2 przypadków:
+Plik Api.Swift  - w enum Endpoint brakuje obsługi 2 przypadków:
 * Track(id: String) 
 * Tracks(ids:[String])
 uzupelnije je z następującymi wartościami :
@@ -16,20 +15,25 @@ uzupelnije je z następującymi wartościami :
 * Track(id: String) 
 - path: "tracks/\(id)/"
 
-
 * Tracks(ids:[String])
 - path: "tracks/"
 - parameters: ids.encoded
 - rootKeyPath: "tracks"
 
+Zadanie 2
+----------
 
+W pliku Api.Swift uzupełnij funkcje
+absoluteURL(endpoint: Endpoint) -> NSURL?
+która zwraca obiekt NSURL na podstawie przekazanego argumentu endpoint oraz  API.baseURL. 
+Obiekt URL musi zawierać wartości z endpoint.parameters. 
+Wykorzystaj do tego celu NSURLComponents oraz NSURLQueryItem
 
-uzupełnij funkcje  absoluteURL(endpoint: Endpoint) -> NSURL?
-która zwraca obiekt NSURL na podstawie przekazanego argumentu endpoint oraz   API.baseURL. URL musi zawierać wartości z endpoint.parameters. Wykorzystaj do tego celu NSURLComponents oraz NSURLQueryItem
-
-task 3 uzpełnij funkcję request()
-stwórz NSURL request z wykorzystaniem zaimplementowanej wcześniej metody absoluteURL.
-Wykorzystaj istniejący obiekt session do stworzenia tasku użyj metody
+Zadanie 3 
+----------
+Uzpełnij funkcję request()
+Stwórz NSURL request z wykorzystaniem zaimplementowanej wcześniej metody absoluteURL.
+Wykorzystaj istniejący obiekt session do stworzenia tasku użyj metody:
 session.dataTaskWithURL(<url: NSURL>, completionHandler: <(NSData?, NSURLResponse?, NSError?) -> Void>)
 
 Obsłuż response uwzględniając przypadki:
