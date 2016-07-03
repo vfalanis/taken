@@ -15,6 +15,22 @@ i
     text-indent: 0;
 }
 
+table {
+  width:100%;
+  border-collapse:collapse;
+  font-size:14px;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #eee;
+}
+
+th.title {
+  width: 30%;
+}
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
