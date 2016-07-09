@@ -3,7 +3,7 @@ layout: post
 title:  "Example content"
 date:   2016-05-12 22:02:01 -0500
 comments: true
-categories: jekyll
+categories: Jekyll
 ---
 
 Morbi ultrices libero imperdiet [lectus](#) dignissim, sit amet bibendum nisl consectetur. Morbi erat purus, pretium at ligula tincidunt, faucibus commodo sem. Etiam vel porttitor est, vitae maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien turpis, cursus non porta ac.
