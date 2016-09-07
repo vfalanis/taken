@@ -28,13 +28,13 @@
 
        <div class="navigation">
         <ul>
-          <h1>
+          <h2>
             {% for my_page in site.pages %}
                 {% if my_page.title %}
                 <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
             {% endif %}
             {% endfor %}
-            </h1>
+            </h2>
         </ul>
     </div>
 
