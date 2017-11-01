@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: Wallee
 
 # Social icons
 facebook: username
