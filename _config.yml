@@ -1,6 +1,6 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Wallee's Blog
+email: wonjnlee@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
@@ -10,9 +10,7 @@ description: Wallee
 # Social icons
 facebook: username
 linkedin: username
-github: username
-deviantart: username
-codepen: username
+github: wonjnlee/wonjnlee.github.io
 
 footer: © Taken theme
 
