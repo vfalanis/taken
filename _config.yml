@@ -1,19 +1,19 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: PhD candidate at [EHESS-Paris School of Economics](https://www.parisschoolofeconomics.eu/) and junior economist at [Institut des politiques publiques](https://www.ipp.eu/).
+email: marion.monnet[at]ipp.eu
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: My dissertation is under the supervision of Sylvie Lambert and Julien Grenet and focuses on policy tools aimed at improving social and gender diversity in education.
 
 # Social icons
-facebook: username
+# facebook: username
 linkedin: username
 github: username
-deviantart: username
-codepen: username
-
+# deviantart: username
+# codepen: username
+ 
 footer: © Taken theme
 
 # Build settings
