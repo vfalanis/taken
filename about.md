@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Taken is a two column minimalist Jekyll theme.
+My dissertation is under the supervision of Sylvie Lambert and Julien Grenet and focuses on policy tools aimed at improving social and gender diversity in education.
 
-Taken is based on [chapter tumblr theme.](http://theme-chapter.tumblr.com/)
+Research interests: Economics of education, microeconometrics
 
-You can fork taken from [here.](https://github.com/vfalanis/taken)
+Contact information: Paris School of Economics Room R3-18 48, Bd Jourdan 75014 Paris, France marion.monnet[at]ipp.eu
