@@ -1,11 +1,11 @@
 # Site settings
-title: PhD candidate at [EHESS-Paris School of Economics](https://www.parisschoolofeconomics.eu/) and junior economist at [Institut des politiques publiques](https://www.ipp.eu/).
+title: Marion Monnet
 email: marion.monnet[at]ipp.eu
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: My dissertation is under the supervision of Sylvie Lambert and Julien Grenet and focuses on policy tools aimed at improving social and gender diversity in education.
+description: PhD candidate at [EHESS-Paris School of Economics](https://www.parisschoolofeconomics.eu/) and junior economist at [Institut des politiques publiques](https://www.ipp.eu/).
 
 # Social icons
 # facebook: username
