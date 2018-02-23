@@ -22,10 +22,6 @@
 ### Book
 - [Les allocations logement. Comment les réformer ?](http://www.cepremap.fr/depot/opus/OPUS38.pdf), _with Antoine Bozio, Gabrielle Fack, Julien Grenet, Malka Guillot and Lucile Romanello, Editions Rue d’Ulm, Presses de l’Ecole normale supérieure, Collection Cepremap, 2015._
 
-## Teaching 
-- 2017 - Teaching assistant in Public Policy Evaluation (Postgraduate) - Sciences Po Paris
-
-
 <!--
 layout: post
 title:  "Example content"
