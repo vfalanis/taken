@@ -1,3 +1,6 @@
 ---
-layout : page
+layout: page
+title: Teaching
+permalink: /
 ---
+
