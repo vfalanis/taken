@@ -1,18 +1,3 @@
-# Marion Monnet 
-
-PhD candidate at [EHESS-Paris School of Economics](https://www.parisschoolofeconomics.eu/) and junior economist at [Institut des politiques publiques](https://www.ipp.eu/).
-
-My dissertation is under the supervision of Sylvie Lambert and Julien Grenet and focuses on policy tools aimed at improving social and gender diversity in education. 
-
-**Research interests:** Economics of education, microeconometrics
-
-**Contact information:**
-Paris School of Economics 
-Room R3-18
-48, Bd Jourdan
-75014 Paris, France
-marion.monnet[at]ipp.eu
-
 ## Research
 
 ### Ongoing projets
@@ -22,6 +7,7 @@ marion.monnet[at]ipp.eu
 
 ### Publications
 - [Designing Housing Benefits: An Application with French Data](https://www.cairn.info/revue-economie-et-prevision.htm), _with Antoine Bozio, Malka Guillot and Lucile Romanello, Economie et Prévision, N°211-212, 2018._
+
 ### Working papers 
 - [Can female role models reduce the gender gap in science? Evidence from classroom interventions in French high schools](https://halshs.archives-ouvertes.fr/halshs-01713068/document), _with Thomas Breda, Julien Grenet and Clémentine Van Effenterre, PSE Working Paper 2018-06._
 
