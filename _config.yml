@@ -1,18 +1,18 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: 생계형 개발자의 블로그
+email: seungguk.dev@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: 생계형 개발자의 기술 블로그
 
 # Social icons
-facebook: username
-linkedin: username
-github: username
-deviantart: username
-codepen: username
+facebook: lenika
+linkedin: 
+github: ricepower
+deviantart: 
+codepen: 
 
 footer: © Taken theme
 
